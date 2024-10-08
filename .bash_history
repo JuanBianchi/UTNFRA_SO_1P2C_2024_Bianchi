@@ -370,3 +370,73 @@ cat $HOME/.bash_history
 cat $HOME/.bash_history > repogit/UTNFRA_SO_1P2C_2024_Bianchi
 cat $HOME/.bash_history > ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
 ls -l ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+cat $HOME/.bash_history > ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/.bash_history
+ls -l ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+ls -la :~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+ls -la ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+cd ..
+git status
+git add .bash_history
+git commit -m "ADD: Historial de comandos usados"
+git push https://JuanBianchi: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@github.com/JuanBianchi/UTNFRA_SO_1P2C_2024_Bianchi.git
+git push
+git push https://JuanBianchi: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@github.com/JuanBianchi/UTNFRA_SO_1P2C_2024_Bianchi.git
+       cd repogit/
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+git status
+ls -la
+git push
+git push https://JuanBianchi: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@github.com/JuanBianchi/UTNFRA_SO_1P2C_2024_Bianchi.git
+git remote -v
+cd repogit/
+git remote -v
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+git remote -v
+git remote set-url origin git@github.com:JuanBianchi/UTNFRA_SO_1P2C_2024_Bianchi.git
+git remote -v
+pwd
+cd ..
+pwd
+ls -la
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -ls .ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub 
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+git status
+git push
+cat $HOME/.bash_history > ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/.bash_history
+cat ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/.bash_history
+ls -l /Examenes-UTN/
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls -l /Examenes-UTN/
+cd ..
+git status
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+git status
+git add Punto_C.sh
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+cd RTA_SCRIPT_Examen_20241006/
+git status
+git add Punto_C.sh
+git commit -m "ADD: Script para crear grupo y usuario alumno/profesor"
+git push
+ls -l /Examenes-UTN/
+man su
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls -l /Examenes-UTN/
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls -l /Examenes-UTN/
+git status
+history
+cd
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+cat .bash_history 
