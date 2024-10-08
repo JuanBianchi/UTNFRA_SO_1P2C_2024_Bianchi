@@ -21,5 +21,14 @@ sudo useradd -m -s /bin/bash -G $GRUPO_PROFESOR -p "$(sudo grep vagrant /etc/sha
 
 sudo chown p1c2_2024_P1:p1c2_2024_P1 /Examenes-UTN/profesores
 
+sudo chmod 750 /Examenes-UTN/alumno_1
+
+sudo chmod 760 /Examenes-UTN/alumno_2
+
+sudo chmod 700 /Examenes-UTN/alumno_3
+
+sudo chmod 770 /Examenes-UTN/profesores
+
+
 
 
