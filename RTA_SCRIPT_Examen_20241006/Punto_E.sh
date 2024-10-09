@@ -6,6 +6,7 @@ ARCHIVO=Filtro_Basico.txt
 
 sudo cat /proc/meminfo | grep "MemTotal" > $RUTA_DESTINO/$ARCHIVO
 
+sudo dmidecode -t chassis | grep "Chassis" | awk '{print $1,$2}' >> $RUTA_DESTINO/$ARCHIVO
+
 sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $0}' >> $RUTA_DESTINO/$ARCHIVO
 
-sudo dmidecode -t chassis | grep "Chassis" | awk '{print $1,$2}' >> $RUTA_DESTINO/$ARCHIVO
