@@ -34,12 +34,10 @@ sudo chmod 770 /Examenes-UTN/profesores
 
 for NOMBRE in p1c2_2024_A1 p1c2_2024_A2 p1c2_2024_A3
 do
-	sudo su -c "whoami" $NOMBRE
-	sudo su $NOMBRE -c "touch /Examenes-UTN/alumno_$i/validar.txt"
+	sudo su -c "whoami > /Examenes-UTN/alumno_$i/validar.txt" $NOMBRE
 	i=$((i + 1))
 done
 
-sudo su -c "touch /Examenes-UTN/profesores/validar.txt" p1c2_2024_P1
 sudo su -c "whoami > /Examenes-UTN/profesores/validar.txt" p1c2_2024_P1
 
 
