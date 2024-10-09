@@ -3,7 +3,7 @@
 sudo fdisk /dev/sdc << EOF
 n
 e
-
+1
 
 
 w
