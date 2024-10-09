@@ -440,3 +440,253 @@ history
 cd
 cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
 cat .bash_history 
+cat $HOME/.bash_history > ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/.bash_history
+git status
+git add .bash_history 
+git commit -m "docs: actualizado historial de comandos"
+git push
+git status
+cd RTA_SCRIPT_Examen_20241006/
+git add Punto_C.sh
+git commit -m "feat: ahora se cambian los permisos del directorio"
+git push
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls -l /Examenes-UTN/
+ls -l /Examenes-UTN/alumno_1
+sudo ls -l /Examenes-UTN/alumno_1
+sudo ls -l /Examenes-UTN/alumno_2
+sudo cat /Examenes-UTN/alumno_1/validar.txt
+sudo cat /Examenes-UTN/alumno_1/validar1.txt
+sudo cd /Examenes-UTN/alumno_1
+sudo rm -f /Examenes-UTN/alumno_1/validar1.txt
+sudo ls -l /Examenes-UTN/alumno_1/
+sudo ls -l /Examenes-UTN/profesores/
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls -l /Examenes-UTN/alumno_1
+vim Punto_C.sh 
+bash Punto_C.sh 
+sudo ls -l /Examenes-UTN/alumno_1
+sudo ls -l /Examenes-UTN/
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls -l /
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+ls -l repogit/
+ls -l/
+ls -l /
+ls -l repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+ls -l repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+ls -l /
+ls -l /home/vagrant/Estructura_Asimetrica/
+rm -f /home/vagrant/Estructura_Asimetrica/
+rm -f Estructura_Asimetrica/
+rm Estructura_Asimetrica/
+rm -rf Estructura_Asimetrica/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_D.sh 
+bash Punto_D.sh 
+cd /
+cd home/vagrant/
+/proc/meminfo
+dmidecode -t chassis
+sudo /proc/meminfo
+sudo cat /proc/meminfo
+sudo dmidecode -t chassis
+sudo dmidecode -t chassis | awk '\n' '{print $2}'
+sudo dmidecode -t chassis | awk '\' '{print $2}'
+sudo dmidecode -t chassis | awk ' ' '{print $2}'
+sudo dmidecode -t chassis | awk 'M' '{print $2}'
+sudo dmidecode -t chassis | awk ',' '{print $2}'
+sudo dmidecode -t chassis | awk ':' '{print $2}'
+sudo dmidecode -t chassis | awk 'Man' '{print $2}'
+sudo dmidecode -t chassis | awk 'Manufacturer' '{print $2}'
+sudo dmidecode -t chassis | awk ' ' '{print $1}'
+sudo dmidecode -t chassis | awk '/n' '{print $1}'
+sudo dmidecode -t chassis | awk '/' '{print $1}'
+sudo dmidecode -t chassis | awk '/' '{print $2}'
+sudo dmidecode -t chassis | awk '/Manufacturer' '{print $2}'
+sudo dmidecode -t chassis | awk 'a' '{print $2}'
+sudo dmidecode -t chassis | awk '' '{print $2}'
+sudo dmidecode -t chassis | awk 'b' '{print $2}'
+sudo dmidecode -t chassis | awk 'Man+' '{print $2}'
+sudo dmidecode -t chassis | awk 'Man' '{print $2}'
+sudo dmidecode -t chassis | awk 'Manufacturer' '{print $2}'
+sudo dmidecode -t chassis | awk 'Manufacturer:' '{print $2}'
+sudo grep -i dmidecode -t chassis | awk 'Manufacturer' '{print $2}'
+sudo grep dmidecode -t chassis | awk 'Manufacturer' '{print $2}'
+sudo dmidecode -t chassis grep | awk 'Manufacturer' '{print $2}'
+sudo dmidecode -t chassis grep | awk ':' '{print $2}'
+sudo dmidecode -t chassis | grep - i | awk ':' '{print $2}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $2}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $1}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $1 $2 $3}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $1, $2, $3}'
+sudo cat /proc/meminfo | grep "MemTotal"
+sudo dmidecode -t chassis | grep "Chassis" | awk '{print $2}'
+sudo dmidecode -t chassis | grep "Chassis" | awk '{print $1,$2}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $1, $2, $3}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $0, $1, $2, $3}'
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $0}'
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_E.sh 
+cd ..
+ls -l
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_E.sh 
+bash Punto_E.sh 
+vim Punto_E.sh 
+cd ..
+RTA_ARCHIVOS_Examen_20241007/
+ls -l RTA_ARCHIVOS_Examen_20241007/
+ls -ld RTA_ARCHIVOS_Examen_20241007/
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_E.sh 
+bash Punto_E.sh 
+vim Punto_E.sh 
+bash Punto_E.sh 
+cd ..
+ls -l
+cd RTA_SCRIPT_Examen_20241006
+vim Punto_E.sh 
+pwd
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+ls -l
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+vim Punto_E.sh 
+bash Punto_E.sh 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+ls -ld repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_ARCHIVOS_Examen_20241007$
+ls -ld repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_ARCHIVOS_Examen_20241007
+ls: cannot access 'repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_ARCHIVOS_Examen_20241007': No such file or directoryls -l ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+ls -l ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_E.sh 
+bash Punto_E.sh 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+ls
+cat Filtro_Basico.txt 
+cd ..
+git status
+git add Punto_E.sh
+git add RTA_SCRIPT_Examen_20241006/Punto_E.sh
+git commit -m "add: Script para crear archivo de filtro basico"
+git push
+git add RTA_ARCHIVOS_Examen_20241007/
+git commit -m "add: Filtro_Basico.txt"
+git push
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_E.sh 
+bash Punto_E.sh 
+bash Punto_D.sh 
+bash Punto_C.sh 
+git status
+git add Punto_E.sh 
+git commit -m "fix: error de orden al mostrar los datos
+"
+git push
+vim Punto_C.sh 
+cd /Examenes-UTN/
+cd profesores/
+sudo ls -l
+sudo ls -l profesores/
+cd ..
+cd home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_D.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+curl -s ifconfig.me
+whoami
+git remote get-url origin
+cd /home/vagrant/
+[200~curl -s ifconfig.me~
+curl -s ifconfig.me~
+curl -s ifconfig.me
+curl -s ifconfig.me | awk 'v' ''
+curl -s ifconfig.me | awk 'v' 
+curl -s ifconfig.me | awk 'v' '{print $1}'
+curl -s ifconfig.me | awk 'v' '{print $2}'
+curl -s ifconfig.me
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_F.sh 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_F.sh 
+bash Punto_F.sh 
+vim Punto_F.sh 
+bash Punto_F.sh 
+vim Punto_F.sh 
+bash Punto_F.sh 
+cd ..
+cat RTA_ARCHIVOS_Examen_20241007/Filtro_Avanzado.txt 
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_F.sh 
+grep $(whoami) /etc/shadow | awk -F ':' '{print $2}'
+sudo grep $(whoami) /etc/shadow | awk -F ':' '{print $2}'
+vim Punto_F.sh 
+cd /home/vagrant/
+git remote get-url origin
+cd repogit/
+git remote get-url origin
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+git remote get-url origin
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_F.sh 
+cd /home/vagrant/
+git remote get-url origin repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+git remote get-url origin /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+man git
+git -C ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi remote get-url origin
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_F
+vim Punto_F.sh 
+bash Punto_F.sh 
+vim Punto_F.sh 
+bash Punto_F.sh 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+cat Filtro_Avanzado.txt 
+cat Filtro_Basico.txt 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+cd ..
+RTA_SCRIPT_Examen_20241006/
+cd RTA_SCRIPT_Examen_20241006/
+vim Punto_A.sh 
+bash Punto_A.sh 
+vim Punto_A.sh 
+bash Punto_A.sh 
+cd / 
+ls -l Examenes-UTN/
+ls -l Examenes-UTN/alumno_1
+sudo ls -l Examenes-UTN/alumno_1
+cd /home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+git status
