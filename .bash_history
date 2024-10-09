@@ -690,3 +690,114 @@ sudo ls -l Examenes-UTN/alumno_1
 cd /home/vagrant/
 cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
 git status
+cat $HOME/.bash_history > ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/.bash_history
+git status
+git add .bash_history 
+git commit -m "docs: actualizado historial de comandos utilizados"
+git push
+git add RTA_SCRIPT_Examen_20241006/Punto_A.sh
+git commit -m "fix: se elimino un comando que originaba que no se creara en el directorio correcto"
+git push
+git status
+git add RTA_SCRIPT_Examen_20241006/Punto_C.sh
+git commit -m "feat: se crea un archivo con el nombre de usuario dentro de las carpetas alumno y profesores"
+git push
+git add RTA_ARCHIVOS_Examen_20241007/Filtro_Basico.txt
+git commit -m "fix: se corrigio el orden en el que aparece la informacion del fabricante y la informacion del chassis"
+git push
+git status
+git add RTA_SCRIPT_Examen_20241006/Punto_F.sh
+git commit -m "add: se creo script para generar un archivo con filtrado avanzado"
+git push
+git add RTA_ARCHIVOS_Examen_20241007/Filtro_Avanzado.txt
+git commit -m "add: Filtrado_Avanzado.txt"
+git push
+git status
+ls -l
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Bianchi/
+git status
+git pull
+cd RTA_SCRIPT_Examen_20241006/
+cat Punto_F.sh 
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+bash Punto_C.sh 
+vim Punto_C.sh 
+cd /
+ls -l Examenes-UTN/
+cd home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+cd /
+sudo chmod 777 /Examenes-UTN/alumno_1
+sudo chmod 777 /Examenes-UTN/alumno_2
+sudo chmod 777 /Examenes-UTN/alumno_3
+sudo chmod 777 /Examenes-UTN/profesores
+ls -l Examenes-UTN/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+bash Punto_C.sh 
+cd /home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+bash Punto_C.sh 
+sudo bash Punto_C.sh 
+vim Punto_C.sh 
+cd /
+ls -l Examenes-UTN/alumno_1/validar.txt
+sudo ls -l Examenes-UTN/alumno_1/validar.txt
+cd home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+cd /
+cd Examenes-UTN/alumno_1
+cd Examenes-UTN/
+sudo rm alumno_1/validar.txt
+ls -l
+ls -l alumno_1
+sudo ls -l alumno_1
+sudo rm alumno_2/validar.txt
+sudo rm alumno_3/validar.txt
+sudo rm profesores/validar.txt
+sudo ls -l alumno_2/validar.txt
+sudo ls -l alumno_2
+sudo ls -l alumno_3
+sudo ls -l profesores
+cd ..
+cd home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+bash Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+cd /
+sudo ls -l Examenes-UTN/alumno_1/validar.txt
+sudo cat Examenes-UTN/alumno_1/validar.txt
+sudo cat Examenes-UTN/alumno_2/validar.txt
+sudo cat Examenes-UTN/alumno_3/validar.txt
+sudo cat Examenes-UTN/profesores/validar.txt
+sudo rm Examenes-UTN/profesores/validar.txt
+sudo rm Examenes-UTN/alumno_3/validar.txt
+sudo rm Examenes-UTN/alumno_2/validar.txt
+sudo rm Examenes-UTN/alumno_1/validar.txt
+cd home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_C.sh 
+bash Punto_C.sh 
+cd /
+ls -l Examenes-UTN/alumno_1
+sudo ls -l Examenes-UTN//alumno_1
+sudo ls -l Examenes-UTN/alumno_2
+sudo ls -l Examenes-UTN/alumno_3
+sudo ls -l Examenes-UTN/profesores
+sudo cat Examenes-UTN/profesores
+sudo cat Examenes-UTN/profesores/validar.txt
+sudo cat Examenes-UTN/alumno_3/validar.txt
+sudo cat Examenes-UTN/alumno_2/validar.txt
+sudo cat Examenes-UTN/alumno_1/validar.txt
+cd home/vagrant/
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
