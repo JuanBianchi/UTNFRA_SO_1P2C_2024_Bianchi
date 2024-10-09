@@ -2,6 +2,8 @@
 
 GRUPO_ALUMNO=p1c2_2024_gAlumno
 GRUPO_PROFESOR=p1c2_2024_gProfesores
+DIR_DESTINO=/Examenes-UTN
+i=1
 
 sudo groupadd $GRUPO_PROFESOR
 
@@ -28,6 +30,18 @@ sudo chmod 760 /Examenes-UTN/alumno_2
 sudo chmod 700 /Examenes-UTN/alumno_3
 
 sudo chmod 770 /Examenes-UTN/profesores
+
+
+for NOMBRE in p1c2_2024_A1 p1c2_2024_A2 p1c2_2024_A3
+do
+	sudo su -c "whoami" $NOMBRE
+	sudo su $NOMBRE -c "touch /Examenes-UTN/alumno_$i/validar.txt"
+	i=$((i + 1))
+done
+
+sudo su -c "touch /Examenes-UTN/profesores/validar.txt" p1c2_2024_P1
+sudo su -c "whoami > /Examenes-UTN/profesores/validar.txt" p1c2_2024_P1
+
 
 
 
