@@ -801,3 +801,35 @@ sudo cat Examenes-UTN/alumno_2/validar.txt
 sudo cat Examenes-UTN/alumno_1/validar.txt
 cd home/vagrant/
 cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/
+cat $HOME/.bash_history > ~/repogit/UTNFRA_SO_1P2C_2024_Bianchi/.bash_history
+git status
+git add .bash_history 
+git commit -m "doc: lista de comandos utilizados actualizada"
+git add  RTA_SCRIPT_Examen_20241006/Punto_C.sh
+git commit -m "fix: arreglado problema con permisos en directorio destino"
+git push
+cd repogit/UTNFRA_SO_1P2C_2024_Bianchi/RTA_SCRIPT_Examen_20241006/
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+man fdisk
+sudo fdisk -l sdc
+sudo fdisk -l /dev/sdc
+sudo fdisk /dev/sdc
+sudo fdisk -l /dev/sdc
+git status
+git add Punto_B.sh 
+git commit -m "fix: se agrego un input mas al primer heredoc"
+git push
+cd ..
+ls -l
+vim README.md 
+cat README.md
+git status
+git add README.md
+git commit -m "doc: agregados datos del alumno"
+git push
+vim README.md 
+git status 
+git add README.md 
+git commit -m "doc: datos del alumno actualizados"
+git push
